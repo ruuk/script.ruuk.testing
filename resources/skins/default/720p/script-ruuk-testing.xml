@@ -1,0 +1,37 @@
+<window>
+    <defaultcontrol>300</defaultcontrol>
+    <coordinates>
+        <system>1</system>
+        <posx>0</posx>
+        <posy>0</posy>
+    </coordinates>
+    <controls>
+        <control type="image">
+            <posx>190</posx>
+            <posy>190</posy>
+            <width>900</width>
+            <height>340</height>
+            <texture>script-ruuk-testing-white.png</texture>
+            <colordiffuse>FFFFFFFF</colordiffuse>
+        </control>
+        <control type="image">
+            <posx>200</posx>
+            <posy>200</posy>
+            <width>880</width>
+            <height>320</height>
+            <texture>script-ruuk-testing-white.png</texture>
+            <colordiffuse>FF000000</colordiffuse>
+        </control>
+        <control type="button" id="300">
+            <posx>300</posx>
+            <posy>300</posy>
+            <width>680</width>
+            <height>120</height>
+            <font>font30</font>
+            <aligny>center</aligny>
+            <textcolor>FFFFFFFF</textcolor>
+            <align>left</align>
+            <label>THIS IS AN OVERLAY DIALOG[CR]When video starts, this should stay visible.[CR]Click to start a video</label>
+        </control>
+    </controls>
+</window>
